@@ -1,0 +1,16 @@
+read: {
+  companies: {
+    cols: ["id", "name"]
+    sort: {
+      name: desc
+    }
+  },
+  users: {
+    filter: {
+      id: {
+        gt: 76
+        lt: 89
+      }
+    }
+  }
+}
